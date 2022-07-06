@@ -42,8 +42,8 @@ public class CarAI_control : MonoBehaviour
         // Debug.Log(movingPoint.transform.position);
         switch (aiState){
             case AIState.statWayPoints:
-            Debug.Log(agent.remainingDistance-agent.stoppingDistance);
-                if (!agent.pathPending && agent.remainingDistance-agent.stoppingDistance==0){
+            //Debug.Log(agent.remainingDistance-agent.stoppingDistance);
+                if (!agent.pathPending && agent.remainingDistance-agent.stoppingDistance<=0.5){
                     setNextWaypoint();
                 }
                 break;
