@@ -1,0 +1,1130 @@
+Unity Editor version:    2020.3.34f1 (9a4c9c70452b)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2 (Build 21D49)
+Darwin version:          21.3.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57386
+Successfully changed project path to: /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo
+/Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 140.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.34f1 (9a4c9c70452b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Assets
+GfxDevice: creating device client; threaded=0
+2022-07-06 11:36:19.302 Unity[41497:27664048] (null) preferred device: Apple M1 (high power)
+2022-07-06 11:36:19.302 Unity[41497:27664048] Metal devices available: 1
+2022-07-06 11:36:19.302 Unity[41497:27664048] 0: Apple M1 (high power)
+2022-07-06 11:36:19.302 Unity[41497:27664048] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56497
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.34f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002885 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 139.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1238ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1018ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (550ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007369 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa139940000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7885000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139a00000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f788e600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa14784bc40 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139a70000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139a00000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa14743ac00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147441200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128d38000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128d38000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128098000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128148000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa14743ac00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128170000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa14735d800 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147361000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128170000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147323e00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147323e00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128220000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147364200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1283a0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147364200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146f6d2d0 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128220000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1283a0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1283d8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128610000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1283a0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa14736a400 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128648000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1283d8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128220000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147368a00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146f726b0 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146f72e50 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128868000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128648000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147376000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128220000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1473d9600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1473dec00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 142.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2595ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2292ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (142ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (913ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.020257 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.046697 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Initializing Unity extensions:
+2022-07-06 11:36:25.910 Unity[41497:27664048] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000038d8380 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-07-06 11:36:25.915 Unity[41497:27664048] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000038f1b90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5130 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 365.3 MB.
+System memory in use after: 364.8 MB.
+
+Unloading 354 unused Assets to reduce memory usage. Loaded Objects now: 5611.
+Total: 3.530666 ms (FindLiveObjects: 0.301292 ms CreateObjectMapping: 0.148041 ms MarkObjects: 2.496625 ms  DeleteObjects: 0.583958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4c651422bf9935a6fa5fac71558bb6') in 0.010302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 266.957136 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3e5b367a2f9e3d503b8b8bcfa8dccb') in 0.002014 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006020 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa139a88000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7e56400 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139b98000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa101e6ca00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146ffc820 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128cf0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128d10000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130c09000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa101973400 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128d10000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128d10000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128da8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128e58000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130c09000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128e80000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa13085a200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130843a00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128e80000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130856c00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130856c00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128e58000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130c09000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129088000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130bbfe00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146f39d60 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129140000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1291e0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129088000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1291e0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129088000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130bbfe00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129218000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129140000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1290c0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130be7000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f6f07240 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f6f079e0 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1298b0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1290f0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130bea000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129140000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa101e6ca00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130830c00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-07-06 11:54:07.816 Unity[41497:27664048] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000038310a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.513 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2514ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2213ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (442ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1116ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (783ms)
+				ProcessInitializeOnLoadMethodAttributes (138ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4966 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 351.9 MB.
+System memory in use after: 351.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 5615.
+Total: 3.086250 ms (FindLiveObjects: 0.234417 ms CreateObjectMapping: 0.144959 ms MarkObjects: 2.324541 ms  DeleteObjects: 0.381458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004837 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa139a98000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa102896800 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139ba8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1028f0600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1478964d0 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa138750000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129eb0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f727fc00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7707400 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129eb0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129eb0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129e60000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129fc0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f727fc00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129ea8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f727fc00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f774d600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129ea8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7705c00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7705c00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa12a068000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7282c00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1284b8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7282c00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146f46120 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa12a0c0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128538000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1285f8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1286e8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f80d0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f728b600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1285f8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa12a0d0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1285f8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1014f5600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146f74af0 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146f75290 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1387a8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa12a0d0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7295800 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1285f8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f729e200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f72a0a00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-07-06 11:56:08.329 Unity[41497:27664048] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000383f800 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.549 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2550ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2249ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (455ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1159ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (815ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4966 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 352.6 MB.
+System memory in use after: 352.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5618.
+Total: 3.298250 ms (FindLiveObjects: 0.255917 ms CreateObjectMapping: 0.149541 ms MarkObjects: 2.450125 ms  DeleteObjects: 0.442000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003600 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa139148000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147310c00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa108078000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa101bb0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa126f88010 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f8428000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f8448000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa14760cc00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147311400 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1284a8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1284a8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139158000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139208000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa14760cc00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1286d0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7b23400 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7b26400 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1286d0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147160000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147160000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f8380000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa127086200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f80c8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa101ba2a00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1278632b0 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa108090000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa108168000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f81c0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128940000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128a90000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7b4d600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1286f8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128710000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f8380000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa127086200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa127864990 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa127865130 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa108228000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128710000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7b20400 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128a90000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1473e8600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7ee5c00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-07-06 11:56:53.089 Unity[41497:27664048] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000383f330 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.622 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2623ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2296ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (462ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1179ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (210ms)
+				ProcessInitializeOnLoadAttributes (815ms)
+				ProcessInitializeOnLoadMethodAttributes (139ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4966 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 353.3 MB.
+System memory in use after: 353.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5621.
+Total: 3.135125 ms (FindLiveObjects: 0.233791 ms CreateObjectMapping: 0.143042 ms MarkObjects: 2.326250 ms  DeleteObjects: 0.431208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002237 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa108078000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130833e00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1081e0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130be4000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa126f851f0 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa108250000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1081e0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130c09000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa13085cc00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1081e0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1081e0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa108410000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1084c0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130c09000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa108440000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130be4000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130a16800 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa108440000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130bc5800 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130bc5800 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1084c0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130c09000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1086d8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130bcbe00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa126f8ec70 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa108790000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1086d8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa108710000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa108968000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128140000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f76c9600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1281d8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128178000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128238000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f76d1600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146f4dfa0 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146f47d80 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128300000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128238000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f76d6600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128178000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f76fe000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f7700800 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-07-06 11:57:23.221 Unity[41497:27664048] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000038553b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2659ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (2372ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (483ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (239ms)
+				ProcessInitializeOnLoadAttributes (847ms)
+				ProcessInitializeOnLoadMethodAttributes (136ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4966 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 354.0 MB.
+System memory in use after: 354.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5624.
+Total: 4.788833 ms (FindLiveObjects: 0.376333 ms CreateObjectMapping: 0.176750 ms MarkObjects: 2.625042 ms  DeleteObjects: 1.609417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003477 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa138038000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100cc6400 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139c48000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100ce1200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa147870be0 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139a40000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139c48000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100ce4a00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100ffee00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139c48000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139c48000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139ae0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139b90000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100ceca00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139b10000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100ce7200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100ceca00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139b10000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100ceaa00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100ceaa00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139ba0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100cf2200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1389a0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100cf2200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa14787a460 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139bb8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1389a0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1389d8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa138c10000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1389a0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100cfac00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa138c48000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139bb8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1389d8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100cf6a00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1478ef8c0 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1478f0060 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa138e68000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa138c48000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100d06800 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa139bb8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100d0f200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100d11a00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-07-06 11:57:35.725 Unity[41497:27664048] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003833100 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.567 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2568ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2281ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (461ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (843ms)
+				ProcessInitializeOnLoadMethodAttributes (139ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4966 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 354.6 MB.
+System memory in use after: 354.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5627.
+Total: 3.404541 ms (FindLiveObjects: 0.269916 ms CreateObjectMapping: 0.143667 ms MarkObjects: 2.502250 ms  DeleteObjects: 0.487791 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002487 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa128ac0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1005d9c00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128ad0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1005ee600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146f38d60 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1293c0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128ad0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1005ee600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1005ca400 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128ad0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128ad0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129560000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129610000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1005f6e00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129590000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1005f6e00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1005f2600 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129590000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1005ca400 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1005ca400 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1296b8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1005fd200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129838000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1005fd200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146fd3330 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1298f0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129838000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129870000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129ac8000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129838000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100605c00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129b00000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1298f0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129870000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100601a00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146ffea00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa146fff1a0 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa129d20000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1298a0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100611800 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1298f0000 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa10061a200 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa10061ca00 doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anirudhsampath/Documents/graduate_school/semester3/cs6457/final_project/vgd-6457/demo/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-07-06 11:58:50.576 Unity[41497:27664048] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003832df0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.505 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2506ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2222ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (444ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1171ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (818ms)
+				ProcessInitializeOnLoadMethodAttributes (147ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4966 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 355.4 MB.
+System memory in use after: 355.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5630.
+Total: 4.865291 ms (FindLiveObjects: 0.410875 ms CreateObjectMapping: 0.180041 ms MarkObjects: 3.572875 ms  DeleteObjects: 0.699875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
