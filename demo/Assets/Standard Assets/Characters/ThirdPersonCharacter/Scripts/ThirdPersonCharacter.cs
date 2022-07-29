@@ -31,9 +31,12 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		bool m_Crouching;
 		public TextMeshProUGUI hud;
 		public TextMeshProUGUI ratingHud;
+		public TextMeshProUGUI timer;
 		
-		int count;
-		int rating;
+		public int count;
+		public bool deliveryMade = false;
+		public bool pickupMade = false;
+		public int rating = 0;
 		
 		void Start()
 		{
@@ -53,11 +56,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		if (other.gameObject.CompareTag ("Pickup"))
 		{
 			other.gameObject.SetActive (false);
-
+			pickupMade = true;
 			// Add one to the score variable 'count'
 			count = count + 1;
 			
-			hud.text = "Current packages: " + count;
+			hud.text = "Package Acquired";
 			// Run the 'SetCountText()' function (see below)
 //			SetCountText ();
 		}
@@ -68,13 +71,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 //			other.gameObject.SetActive (false);
 			if (count > 0)
 			{
+				deliveryMade = true;
 			// Add one to the score variable 'count'
-			rating = rating + count;
-			count = 0;
+				count = 0;
 
 			// Run the 'SetCountText()' function (see below)
 //			SetCountText ();
-			ratingHud.text = "Delivery rating: " + rating + " stars";
+			ratingHud.text = "Average Delivery Rating: " + rating + " stars";
 			hud.text = "Current packages: " + count;
 			}
 		}
