@@ -11,7 +11,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		[SerializeField] float m_MovingTurnSpeed = 360;
 		[SerializeField] float m_StationaryTurnSpeed = 180;
 		[SerializeField] float m_JumpPower = 12f;
-		[Range(1f, 4f)][SerializeField] float m_GravityMultiplier = 2f;
+		[Range(1f, 4f)] [SerializeField] float m_GravityMultiplier = 2f;
 		[SerializeField] float m_RunCycleLegOffset = 0.2f; //specific to the character in sample assets, will need to be modified to work with others
 		[SerializeField] float m_MoveSpeedMultiplier = 1f;
 		[SerializeField] float m_AnimSpeedMultiplier = 1f;
@@ -32,12 +32,12 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		public TextMeshProUGUI hud;
 		public TextMeshProUGUI ratingHud;
 		public TextMeshProUGUI timer;
-		
+
 		public int count;
 		public bool deliveryMade = false;
 		public bool pickupMade = false;
 		public int rating = 0;
-		
+
 		void Start()
 		{
 			m_Animator = GetComponent<Animator>();
@@ -50,41 +50,41 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			m_OrigGroundCheckDistance = m_GroundCheckDistance;
 		}
 
-        void OnTriggerEnter(Collider other) 
-	{
-		// ..and if the GameObject you intersect has the tag 'Pick Up' assigned to it..
-		if (other.gameObject.CompareTag ("Pickup"))
+		void OnTriggerEnter(Collider other)
 		{
-			other.gameObject.SetActive (false);
-			pickupMade = true;
-			// Add one to the score variable 'count'
-			count = count + 1;
-			
-			hud.text = "Package Acquired";
-			// Run the 'SetCountText()' function (see below)
-//			SetCountText ();
-		}
-		
-		
-		if (other.gameObject.CompareTag ("Dropoff"))
-		{
-//			other.gameObject.SetActive (false);
-			if (count > 0)
+			// ..and if the GameObject you intersect has the tag 'Pick Up' assigned to it..
+			if (other.gameObject.CompareTag("Pickup"))
 			{
-				deliveryMade = true;
-			// Add one to the score variable 'count'
-				count = 0;
+				other.gameObject.SetActive(false);
+				pickupMade = true;
+				// Add one to the score variable 'count'
+				count = count + 1;
 
-			// Run the 'SetCountText()' function (see below)
-//			SetCountText ();
-			ratingHud.text = "Average Delivery Rating: " + rating + " stars";
-			hud.text = "Current packages: " + count;
+				hud.text = "Package Acquired";
+				// Run the 'SetCountText()' function (see below)
+				//			SetCountText ();
 			}
+
+
+			if (other.gameObject.CompareTag("Dropoff"))
+			{
+				//			other.gameObject.SetActive (false);
+				if (count > 0)
+				{
+					deliveryMade = true;
+					// Add one to the score variable 'count'
+					count = 0;
+
+					// Run the 'SetCountText()' function (see below)
+					//			SetCountText ();
+					ratingHud.text = "Average Delivery Rating: " + rating + " stars";
+					hud.text = "Current packages: " + count;
+				}
+			}
+
+
 		}
-		
-		
-	}
-	
+
 		public void Move(Vector3 move, bool crouch, bool jump)
 		{
 
