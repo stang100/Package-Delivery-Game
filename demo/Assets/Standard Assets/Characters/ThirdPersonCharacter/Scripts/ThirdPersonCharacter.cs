@@ -33,6 +33,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		public TextMeshProUGUI ratingHud;
 		public TextMeshProUGUI timer;
 
+		public AudioSource Audio;
+
 		public int count;
 		public bool deliveryMade = false;
 		public bool pickupMade = false;
@@ -45,6 +47,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			m_Capsule = GetComponent<CapsuleCollider>();
 			m_CapsuleHeight = m_Capsule.height;
 			m_CapsuleCenter = m_Capsule.center;
+			Audio = GetComponent<AudioSource>();
 
 			m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 			m_OrigGroundCheckDistance = m_GroundCheckDistance;
@@ -108,6 +111,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			else
 			{
 				HandleAirborneMovement();
+				Audio.Play();
 			}
 
 			ScaleCapsuleForCrouching(crouch);

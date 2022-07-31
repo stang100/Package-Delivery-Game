@@ -10,10 +10,14 @@ public class CarExitEnterSystem : MonoBehaviour
     public Transform Car;
     public GameObject DriveHint;
     public GameObject StartingUI;
+    public AudioClip startCar;
+    public AudioClip doorCar;
 
     [Header("Cameras")]
     public GameObject PlayerCam;
     public GameObject CarCam;
+    private AudioSource Audio;
+
 
 
     private bool Candrive;
@@ -27,6 +31,7 @@ public class CarExitEnterSystem : MonoBehaviour
         CarCam.gameObject.SetActive(true);
         StartingUI.SetActive(true);
         StartCoroutine(Test());
+        Audio = GetComponent<AudioSource>();
 
         CarController.enabled = false;
         DriveHint.gameObject.SetActive(false);
@@ -55,6 +60,9 @@ public class CarExitEnterSystem : MonoBehaviour
             // camera switch
             PlayerCam.gameObject.SetActive(false);
             CarCam.gameObject.SetActive(true);
+            Audio.PlayOneShot(doorCar, 0.7f);
+            Audio.PlayOneShot(startCar, 0.7f);
+            Audio.Play();
         }
         if (Input.GetKeyDown(KeyCode.O) && Candrive)
         {
@@ -66,6 +74,8 @@ public class CarExitEnterSystem : MonoBehaviour
             // camera switch
             PlayerCam.gameObject.SetActive(true);
             CarCam.gameObject.SetActive(false);
+            Audio.Stop();
+            Audio.PlayOneShot(doorCar, 0.7f);
         }
         
     }
