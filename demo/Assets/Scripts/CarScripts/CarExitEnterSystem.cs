@@ -9,7 +9,6 @@ public class CarExitEnterSystem : MonoBehaviour
     public Transform Player;
     public Transform Car;
     public GameObject DriveHint;
-    public GameObject StartingUI;
 
     [Header("Cameras")]
     public GameObject PlayerCam;
@@ -23,24 +22,22 @@ public class CarExitEnterSystem : MonoBehaviour
     void Start()
     {
         // shift from car to human character so that the player knows the location of both
-        PlayerCam.gameObject.SetActive(false);
-        CarCam.gameObject.SetActive(true);
-        StartingUI.SetActive(true);
-        StartCoroutine(Test());
+        PlayerCam.gameObject.SetActive(true);
+        CarCam.gameObject.SetActive(false);
+        //StartCoroutine(Test());
 
         CarController.enabled = false;
         DriveHint.gameObject.SetActive(false);
     }
 
-    IEnumerator Test()
-    {
-        yield return new WaitForSeconds(3);
-        Debug.Log("Wait is over");
-        StartingUI.SetActive(false);
-        PlayerCam.gameObject.SetActive(true);
-        CarCam.gameObject.SetActive(false);
+    // IEnumerator Test()
+    // {
+    //     yield return new WaitForSeconds(3);
+    //     Debug.Log("Wait is over");
+    //     PlayerCam.gameObject.SetActive(true);
+    //     CarCam.gameObject.SetActive(false);
 
-    }
+    // }
 
     // Update is called once per frame
     void Update()
