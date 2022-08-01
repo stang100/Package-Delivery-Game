@@ -1,8 +1,0 @@
-# Starting compiling Assembly-CSharp-firstpass.dll
-/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ec014465b2b014b7796ccced350f174c
-# Starting compiling Assembly-CSharp.dll
-/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-cb0e356f38e6242e0b95193e210e39a8
-# Starting compiling Assembly-CSharp-Editor-firstpass.dll
-/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-90a845540d4c6491c8c79aa4c418dbf8
-# Starting compiling Assembly-CSharp-Editor.dll
-/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-01e7eead81f3641bc830a3c61dcc9f91
