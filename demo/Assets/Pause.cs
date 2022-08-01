@@ -71,6 +71,11 @@ public class Pause : MonoBehaviour
         //SceneManager.LoadScene("SampleScene");
     }
 
+    public void BackToMain()
+    {
+        SceneManager.LoadScene("GameMenu");
+    }
+
     public void QuitGame()
     {
         #if UNITY_EDITOR
